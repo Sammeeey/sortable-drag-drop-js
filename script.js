@@ -8,4 +8,8 @@ draggables.forEach(draggable => {
         console.log('start drag')
         draggable.classList.add('dragging')
     })
+    draggable.addEventListener('dragend', () => {
+        console.log('drag end')
+        draggable.classList.remove('dragging')
+    })
 })
