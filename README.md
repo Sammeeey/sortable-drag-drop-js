@@ -20,6 +20,7 @@ https://user-images.githubusercontent.com/49591562/174741828-d80ae60b-a83b-41b2-
 ### `dragover` takes care of drop by default
 The `dragover` event listener seems to have a drop functionality by default.
 Because moving an element to a different place of the document is already possible without using a drop event - but only `dragstart`, `dragend` and `dragover`.
+
 https://user-images.githubusercontent.com/49591562/174741955-57fff8c3-e7e8-4d40-9607-678f30923d52.mp4
 
 ### Validate functionality of event listeners upfront
