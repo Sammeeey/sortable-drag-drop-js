@@ -3,16 +3,21 @@ body {
 }
 
 .container {
-    background-color: #333;
+    background-color: rgb(130, 130, 130);
     padding: 1rem;
     margin-top: 1rem;
 }
 
 .draggable {
+    text-align: center;
+    font-size: 28px;
+    font-family: sans-serif;
     padding: 1rem;
     background-color: white;
     border: 1px solid black;
     cursor: move;
+    border-radius: 5px;
+    background-color: rgb(255, 189, 66);
 }
 
 .draggable.dragging {
