@@ -1,11 +1,9 @@
 # Sticky Notes App
-- based on [How To Build Sortable Drag & Drop With Vanilla Javascript](https://www.youtube.com/watch?v=jfYWwQrtzzY) by [Web Dev Simplified](https://twitter.com/DevSimplified)
+Minimal sortable drag and drop app, written in vanilla JavaScript based on [How To Build Sortable Drag & Drop With Vanilla Javascript](https://www.youtube.com/watch?v=jfYWwQrtzzY) by [Web Dev Simplified](https://twitter.com/DevSimplified)
 
-<!-- 
-[![app showcase screenshot](https://github.com/Sammeeey/sticky-notes-js/blob/c2d0099a9e8ae293831dbd4d28510e6db816c807/app-screenshot.PNG)](https://sammeeey.github.io/sticky-notes-js/)
+[![app showcase screenshot](https://github.com/Sammeeey/sortable-drag-drop-js/blob/1a2befc833df2881f3254b87c1f542dc64e34f7f/screenshot-final-drag-drop.PNG)](https://sammeeey.github.io/sortable-drag-drop-js/)
 
-https://user-images.githubusercontent.com/49591562/174322872-c5624357-b603-413d-87db-4ac90d25ec40.mp4
--->
+https://user-images.githubusercontent.com/49591562/174741828-d80ae60b-a83b-41b2-983f-f397db59975a.mp4
 
 ## lessons learned
 ### `defer` tag for JS scripts in HTML
@@ -22,9 +20,7 @@ https://user-images.githubusercontent.com/49591562/174322872-c5624357-b603-413d-
 ### `dragover` takes care of drop by default
 The `dragover` event listener seems to have a drop functionality by default.
 Because moving an element to a different place of the document is already possible without using a drop event - but only `dragstart`, `dragend` and `dragover`.
-<!-- add screencast of respective drag-drop here
-./dragover-drag-drop.mp4
- -->
+https://user-images.githubusercontent.com/49591562/174741955-57fff8c3-e7e8-4d40-9607-678f30923d52.mp4
 
 ### Validate functionality of event listeners upfront
 Use `console.log` to quickly validate the workability of event listeners in the console of the browsers developer tools.
